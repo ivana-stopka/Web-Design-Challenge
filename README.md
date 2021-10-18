@@ -2,9 +2,9 @@
 
 ## Summary
 
-This purpose of this project was to create a visualization dashboard website to display previously prepared weather data (see images in assets folder) for cities all over the world using HTML and CSS.
+This purpose of this project was to create a visualization dashboard website to display previously prepared weather data (see images in assets folder) for 500+ cities around the world using HTML and CSS.
 
-The dashboard starts from a landing page (index.html) and from there you can navigate to a comparisons page (comparisons_page.html), data page (data.html) or t0 one of 4 individual graphs showing the relationship between latitude and four different weather parameters (temperature_page.html, humidity_page.html, cloudiness_page.html, wind_speed_page.html). Each page contains an explanation of the data shown and navigation between the pages can be via the navigation bar or by clicking on the four comparison graphs in the side bar. Pages have been configured such that if the browser page is re-sized then the contents and navigation bar then re-size/re-arrange to fit. 
+The dashboard starts from a landing page (index.html) and from there you can navigate to a comparisons page (comparisons_page.html), data page (data.html) or to one of 4 individual graphs showing the relationship between latitude and four different weather parameters (temperature_page.html, humidity_page.html, cloudiness_page.html, wind_speed_page.html). Each page contains an explanation of the data shown and navigation between the pages can be via the navigation bar or by clicking on the four comparison graphs in the side bar. Pages have been configured such that if the browser page is re-sized then the contents and navigation bar then re-size/re-arrange to fit. 
 
 The data for the table on the data page was extracted from a cities.csv file (see resources folder) using Jupyter notebook (see csv_into_html.ipynb), converted to a DataFrame and then saved in a HTML format (see HMTLdata.html).
 
